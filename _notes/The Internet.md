@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Internet.md"
+title: "The Internet"
 ---
 
 # The Internet

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How does a web form work.md"
+title: "How does a web form work"
 ---
 
 # How does a web form work

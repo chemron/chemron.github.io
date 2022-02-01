@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Networks.md"
+title: "Networks"
 ---
 
 # Networks

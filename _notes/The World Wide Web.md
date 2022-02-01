@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The World Wide Web.md"
+title: "The World Wide Web"
 ---
 
 # The World Wide Web
