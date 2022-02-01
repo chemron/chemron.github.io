@@ -1,0 +1,64 @@
+I"6<p>There are many ways to loop or iterate in ruby, so I put together a small
+summary.</p>
+
+<h2 id="enumerator-loops">Enumerator loops</h2>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="n">enumerator</span><span class="p">]</span> <span class="k">do</span> <span class="o">|</span><span class="n">x</span><span class="o">|</span>
+    <span class="o">...</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>or</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="n">enumerator</span><span class="p">]</span> <span class="p">{</span><span class="o">|</span><span class="n">x</span><span class="o">|</span> <span class="o">...</span> <span class="p">}</span>
+</code></pre></div></div>
+
+<p>or</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">x</span> <span class="k">in</span> <span class="p">[</span><span class="n">enumerator</span><span class="p">]</span> <span class="k">do</span>
+    <span class="o">...</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>where <code class="language-plaintext highlighter-rouge">[enumerator]</code> is a given enumerator, for example:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">loop</code></li>
+  <li><code class="language-plaintext highlighter-rouge">1...2.each</code></li>
+  <li><code class="language-plaintext highlighter-rouge">2.times</code></li>
+  <li>etc.</li>
+</ul>
+
+<p>(<code class="language-plaintext highlighter-rouge">for</code> can also be used with an ‘iterable’ for example <code class="language-plaintext highlighter-rouge">[1, 2]</code> or <code class="language-plaintext highlighter-rouge">1..2</code>)</p>
+
+<h2 id="non-enumerator-loops">non-enumerator loops</h2>
+
+<p>The following four examples ‘put’ the numbers from 1 to 10 in the terminal</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="n">i</span> <span class="o">&lt;=</span><span class="mi">10</span>
+    <span class="nb">puts</span> <span class="n">i</span>
+    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">until</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">11</span>
+    <span class="nb">puts</span> <span class="n">i</span>
+    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="kp">loop</span> <span class="k">do</span>
+    <span class="nb">puts</span> <span class="n">i</span>
+    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">break</span> <span class="k">if</span> <span class="n">i</span><span class="o">==</span><span class="mi">11</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">i</span> <span class="k">in</span> <span class="mi">1</span><span class="o">..</span><span class="mi">10</span>
+    <span class="nb">puts</span> <span class="n">i</span>
+<span class="k">end</span>
+</code></pre></div></div>
+:ET

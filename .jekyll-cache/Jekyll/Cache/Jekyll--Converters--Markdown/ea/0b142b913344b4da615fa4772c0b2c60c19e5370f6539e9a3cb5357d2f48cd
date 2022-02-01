@@ -1,0 +1,7 @@
+I"Y<p>Hi!</p>
+
+<pre><code class="language-Ruby">def hello
+    return
+end
+</code></pre>
+:ET

@@ -1,19 +1,19 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+title: Cameron Smith
+email: camerontasmith@gmail.com
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Software and data enthusiast.
+domain: chemron.github.io
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://chemron.github.io/ # the base hostname & protocol for your site,
 
-# Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
-instagram_username:  
-linkedin_username:
+# Profiles
+# twitter_username: ""
+github_username:  chemron
+linkedin_username: cameronsmithaus
 
-# Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+# Build settings
+markdown: kramdown
+
 
 # Build settings
 markdown:           kramdown
