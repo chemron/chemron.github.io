@@ -1,7 +1,0 @@
----
-layout: posts
-title: Posts
-background: '/img/bg-post.jpg'
----
-
-Hi!
