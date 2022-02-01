@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Loops and Iterators in Ruby"
-date:   2021-11-14 12:00:00 +1100
 ---
 
 There are many ways to loop or iterate in ruby, so I put together a small

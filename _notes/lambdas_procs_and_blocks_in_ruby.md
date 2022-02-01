@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Blocks, Procs and Lambdas in Ruby."
-date:   2021-11-16 12:00:00 +1100
 ---
 
 Below is a small summary of Blocks, Procs and Lambdas in Ruby.  

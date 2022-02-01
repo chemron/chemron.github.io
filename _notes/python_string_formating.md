@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Formating python strings"
-date:   2020-07-05 12:00:00 +1100
 ---
 Python fstrings can be written as follows:  
 f"{[variable]:[modifiers][width].[#decimals][format]}"

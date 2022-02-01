@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Killing processes running on a port"
-date:   2021-11-16 12:00:00 +1100
 ---
 
 ## The problem
