@@ -14,6 +14,9 @@ linkedin_username: cameronsmithaus
 # Build settings
 markdown: kramdown
 
+collections:
+  notes:
+    output: true
 
 # Build settings
 markdown:           kramdown

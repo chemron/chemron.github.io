@@ -1,0 +1,51 @@
+---
+layout: notes
+title: Notes
+background: '/img/bg-post.jpg'
+---
+
+Hi! 
+<br>
+These posts are just quick notes that I have taken that I wanted to be made more
+accessible to me or to anyone else who wants them. I make no promises about the
+quality, so use at your own risk.
+
+{% for note in site.notes %}
+
+<article class="post-preview">
+  <a href="{{ note.url | prepend: site.baseurl | replace: '//', '/' }}">
+    <h2 class="post-title">{{ note.title }}</h2>
+    {% if note.subtitle %}
+    <h3 class="post-subtitle">{{ note.subtitle }}</h3>
+    {% endif %}
+  </a>
+  <p class="post-meta">Posted by
+    {% if note.author %}
+    {{ post.author }}
+    {% else %}
+    {{ site.author }}
+    {% endif %}
+  </p>
+</article>
+
+<hr>
+
+{% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+
+<div class="clearfix">
+
+  {% if paginator.previous_page %}
+  <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;
+    Newer<span class="d-none d-md-inline"> Posts</span></a>
+  {% endif %}
+
+  {% if paginator.next_page %}
+  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
+  {% endif %}
+
+</div>
+
+{% endif %}
