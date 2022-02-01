@@ -7,7 +7,7 @@ background: '/img/profile.jpg'
   
 ___
   
-## Education
+### Education
   
 ___
   
@@ -21,7 +21,7 @@ ___
   
 ___
   
-## Employment History
+### Employment History
   
 ___
   
@@ -47,7 +47,7 @@ units.*
   
 ___
   
-## Skills
+### Skills
   
 ___
   
@@ -64,7 +64,7 @@ ___
   
 ___
   
-## Scholarships and Awards
+### Scholarships and Awards
   
 ___
   
@@ -75,7 +75,7 @@ ___
   
 ___
   
-## Volunteering and Extracurricular
+### Volunteering and Extracurricular
   
 ___
   
@@ -87,7 +87,7 @@ ___
   
 ___
   
-## Research Projects
+### Research Projects
   
 ___
   
