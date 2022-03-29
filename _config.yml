@@ -2,7 +2,7 @@ title: Cameron Smith
 author: Cameron Smith
 email: camerontasmith@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I don't know what to put as a description.
+  Welcome to my website!
 domain: chemron.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://chemron.github.io/ # the base hostname & protocol for your site,

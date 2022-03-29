@@ -1,6 +1,6 @@
 ---
 layout: home
-background: '/img/profile.jpg'
+background: '/img/bg-index.jpg'
 ---
 
 Hi!  
